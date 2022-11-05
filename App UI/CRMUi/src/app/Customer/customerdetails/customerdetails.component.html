@@ -1,0 +1,68 @@
+<div class="">
+  <div class="row">
+    <div class="col-6">
+      <h3 class="text-black-50">Customer Detials</h3>
+    </div>
+  </div>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Code</th>
+      <th scope="col">firstName</th>
+      <th scope="col">lastName</th>
+      <th scope="col">email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">{{customer.id}}</th>
+      <td>{{customer.code}}</td>
+      <td>{{customer.firstName}}</td>
+      <td>{{customer.lastName}}</td>
+      <td>{{customer.email}}</td>
+    </tr>
+  </tbody>
+</table>
+<div>
+
+  <div class="">
+    <div class="row">
+      <div class="col-6">
+        <h3 class="text-black-50">Address</h3>
+      </div>
+    </div>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">addressLineOne</th>
+        <th scope="col">addressLineTwo</th>
+        <th scope="col">city</th>
+        <th scope="col">isShipping</th>
+        <th scope="col">isbilling</th>
+        <th scope="col">isbilling</th>
+        <th scope="col">postalCode</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of customer.customerAddress">
+        <th scope="row">{{item.addressLineOne}}</th>
+        <td>{{item.addressLineTwo}}</td>
+        <td>{{item.city}}</td>
+        <td>{{item.country}}</td>
+        <td>{{item.isShipping}}</td>
+        <td>{{item.isbilling}}</td>
+        <td>{{item.postalCode}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="mt-5">
+    <a class="btn btn-success ps-4 pe-4" [routerLink]="['/Customer/edit/'+customer.id]"
+      routerLinkActive="router-link-active">Edit</a>
+    <a class="btn btn-primary ps-4 pe-4 ms-4" [routerLink]="['/Add_Address/'+customer.id]">Add Address</a>
+    <a class="btn btn-dark ps-4 pe-4 ms-4" routerLink="/Customer">Back</a>
+  </div>

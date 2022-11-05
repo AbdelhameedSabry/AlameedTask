@@ -1,0 +1,14 @@
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\bin\Debug\net6.0\CRM Application.DAL.deps.json
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\bin\Debug\net6.0\CRM Application.DAL.runtimeconfig.json
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\bin\Debug\net6.0\CRM Application.DAL.dll
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\bin\Debug\net6.0\CRM Application.DAL.pdb
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.csproj.AssemblyReference.cache
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.AssemblyInfoInputs.cache
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.AssemblyInfo.cs
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.csproj.CoreCompileInputs.cache
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.dll
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\refint\CRM Application.DAL.dll
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.pdb
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\CRM Application.DAL.genruntimeconfig.cache
+D:\ITI\Web API\Day4\CRM Application\CRM Application.DAL\obj\Debug\net6.0\ref\CRM Application.DAL.dll

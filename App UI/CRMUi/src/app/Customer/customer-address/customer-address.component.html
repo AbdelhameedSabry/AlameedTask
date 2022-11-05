@@ -1,0 +1,33 @@
+<h3 class="text-dark-50">Add Customer Address</h3>
+<div class="" style="height:69vh;">
+  <form [formGroup]="form" (submit)="SaveAddress()">
+    <div class="row pt-5 pb-2">
+      <div class="col">
+        <input type="text" class="form-control" formControlName="addressLineOne" placeholder="addressLineOne">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" formControlName="addressLineTwo" placeholder="addressLineTwo">
+      </div>
+    </div>
+    <div class="row pt-3 pb-4">
+      <div class="col">
+        <input type="text" class="form-control" formControlName="city" placeholder="city">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" formControlName="state" placeholder="state">
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col">
+        <input type="text" class="form-control" formControlName="postalCode" placeholder="postalCode">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" formControlName="country" placeholder="country">
+      </div>
+    </div>
+    <div class="col">
+      <input type="submit" class="btn btn-success" [disabled]="!form.valid" value="Add Product">
+      <a class="btn btn-dark ms-3 ps-4 pe-4" routerLink="/Customer">Back</a>
+    </div>
+  </form>
+</div>

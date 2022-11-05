@@ -1,0 +1,21 @@
+<div class="" style="height:69vh;">
+  <form [formGroup]="form" (ngSubmit)="updateProduct()">
+    <div class="row pt-5 pb-2">
+      <div class="col">
+        <input type="text" class="form-control" formControlName="name" [value]="product.name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" formControlName="description" [value]="product.description">
+      </div>
+    </div>
+    <div class="row pt-3 pb-5">
+      <div class="col">
+        <input type="number" class="form-control" formControlName="price" [value]="product.price">
+      </div>
+      <div class="col">
+        <input type="submit" class="btn btn-success" [disabled]="!form.valid" value="Save Data">
+        <a class="btn btn-dark ms-3 ps-4 pe-4" routerLink="/Product">Back</a>
+      </div>
+    </div>
+  </form>
+</div>

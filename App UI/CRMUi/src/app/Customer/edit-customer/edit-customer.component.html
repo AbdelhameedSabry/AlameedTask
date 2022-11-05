@@ -1,0 +1,51 @@
+<section class="vh-100 bg-image bg-light">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Edit Customer</h2>
+
+              <form [formGroup]="form" (submit)="updatecustomer()">
+                <div class="form-outline mb-4">
+                  <input formControlName="firstName" type="text" id="form3Example1cg"
+                    class="form-control form-control-lg" [value]="customer.firstName" />
+                  <label class="form-label" for="form3Example1cg">First Name</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input formControlName="lastName" type="email" id="form3Example3cg"
+                    class="form-control form-control-lg" [value]="customer.lastName" />
+                  <label class="form-label" for="form3Example3cg">Last Name</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input formControlName="email" type="email" id="form3Example4cg" class="form-control form-control-lg"
+                    [value]="customer.email" />
+                  <label class="form-label" for="form3Example4cg">email</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input formControlName="Phone" type="number" id="form3Example4cdg"
+                    class="form-control form-control-lg" [value]="customer.phone" />
+                  <label class="form-label" for="form3Example4cdg">Phone Number not start by Zero</label>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button type="submit" [disabled]="!form.valid"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Save
+                    Data</button>
+
+                  <button [routerLink]="['/Customer']"
+                    class="btn btn-primary btn-block btn-lg gradient-custom-4 ms-4 text-body">Back
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
