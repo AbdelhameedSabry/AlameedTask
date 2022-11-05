@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxMlfcT0uVQPBkxrfU91XG2YoWOr1srfi58jLk7P0boKcsLedqGOSDx4KB7t2WjtbeQeGklnb3WO0Idp+JH1zg==",
+  "dgSpecHash": "rrsZjhkPf9EYvHqF5UoEe1R+axEWhzcEjeBxzqKy0Cniq1wLf9pfqxTl2koWQxUjFBwdW1KZrYZEX++SyvX9dA==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj",
+  "projectFilePath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdel\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\abdel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

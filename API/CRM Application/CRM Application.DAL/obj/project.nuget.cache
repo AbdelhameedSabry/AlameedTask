@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FCNjkZisIAyPSrCjL4f6W5T+ldP9lyzcU5t8jgMifLHFcP1Yh39n161M0VLaay+PtO8SHRYVn+aOb6wyytwxjg==",
+  "dgSpecHash": "t3yGzk5qS01H9dsQLN5oCVplIh2ZQXW3fZJUfi+tmpYhFyGyd4fZY6Hc2cAMEjmG8n34apJ5whQd74eKne5ivg==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
+  "projectFilePath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\abdel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

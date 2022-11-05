@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj": {}
+    "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj": {
+    "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj",
+        "projectUniqueName": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj",
         "projectName": "CRM Application.BL",
-        "projectPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj",
+        "projectPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj",
         "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.BL\\obj\\",
+        "outputPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj": {
-                "projectPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj"
+              "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj": {
+                "projectPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj": {
+    "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
+        "projectUniqueName": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
         "projectName": "CRM Application.DAL",
-        "projectPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
+        "projectPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
         "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\obj\\",
+        "outputPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,14 +146,14 @@
         }
       }
     },
-    "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj": {
+    "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj",
+        "projectUniqueName": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj",
         "projectName": "CRM Application.PL",
-        "projectPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj",
+        "projectPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.PL\\CRM Application.PL.csproj",
         "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.PL\\obj\\",
+        "outputPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.PL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj": {
-                "projectPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj"
+              "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj": {
+                "projectPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.BL\\CRM Application.BL.csproj"
               }
             }
           }

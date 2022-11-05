@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRM_Application.BL
-build_property.ProjectDir = D:\ITI\Web API\Day4\CRM Application\CRM Application.BL\
+build_property.ProjectDir = D:\projects\Alameen Task\API\CRM Application\CRM Application.BL\

@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
+      "projectUniqueName": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
       "projectName": "CRM Application.DAL",
-      "projectPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
+      "projectPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\CRM Application.DAL.csproj",
       "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI\\Web API\\Day4\\CRM Application\\CRM Application.DAL\\obj\\",
+      "outputPath": "D:\\projects\\Alameen Task\\API\\CRM Application\\CRM Application.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
