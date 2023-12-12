@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #movable {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        transition: transform 0.2s ease;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="width: 100%; height: 100%">
+      <div id="movable" onmousedown="" on>swap me</div>
+      <div style="background-color: aqua; width: 100px; height: 200px">
+        swap me
+      </div>
+      <!-- <div style="width: 20%; height: 10%; background-color: blue">swap me</div> -->
+    </div>
+    <script>
+      const movable = document.getElementById("movable");
+      let isDragging = false;
+      let number = false;
+      let initialX;
+      let offsetXC = 0;
+
+      movable.addEventListener("mousedown", startDrag);
+      document.addEventListener("mousemove", drag);
+      document.addEventListener("mouseup", endDrag);
+
+      function startDrag(event) {
+        isDragging = true;
+        initialX = event.clientX - movable.offsetLeft;
+      }
+
+      function drag(event) {
+        if (isDragging) {
+          const offsetX = event.clientX - initialX;
+
+          if (offsetX > offsetXC)
+            movable.style.transform = `translate(${100}px)`;
+          else movable.style.transform = `translate(${0}px)`;
+          console.log(offsetX);
+          offsetXC = offsetX;
+        }
+      }
+
+      function endDrag() {
+        isDragging = false;
+      }
+    </script>
+  </body>
+</html>
